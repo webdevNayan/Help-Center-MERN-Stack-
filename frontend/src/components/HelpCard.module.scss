@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.help_card {
+    padding: 1rem;
+    margin: 0.5rem;
+    max-height: 12rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #d1dbe7;
+    background: #f4f6f8;
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (min-width: 767px) {
+    .help_card {
+        margin: 1rem;
+        font-size: 1.1rem;
+        width: 20rem;
+        p {
+            padding-right: 2rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1030px) {
+    .help_card {
+        margin: 2rem;
+        width: 27rem;
+        font-size: 1.1rem;
+       
+    }
+}
