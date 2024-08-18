@@ -1,4 +1,16 @@
-To see a video demonstration of this assignment, please watch the video available in the root folder. You can also watch the demonstration video using this Google Drive link if the root folder video is broken: https://drive.google.com/file/d/1DQoar37UTIb6pfgoT_cCWxBIWM6sqCMu/view?usp=sharing
+Q1. How can you implement shared functionality across a component tree?
+
+Ans: I can use the Redux toolkit to implement shared functionality through a component tree. Because using the Redux toolkit I can make a centralized store and I can access the store anywhere from the component tree.
+
+
+Q2. Why is the useState hook appropriate for handling state in a complex component?
+
+Ans: The use State hook is appropriate for handling state in a complex component because it allows you to manage state locally, it is also easy to use, and because of its good readability, it is easy to understand and debug from a developer's perspective. 
+
+
+Q3.Design a user interface resembling the provided page. Fetch the data from the server and dynamically map the information cards to the fetched data. Ensure that the search functionality is also implemented. 
+
+Ans: To see a video demonstration of this assignment, please watch the video available in the root folder. You can also watch the demonstration video using this Google Drive link if the root folder video is broken: https://drive.google.com/file/d/1DQoar37UTIb6pfgoT_cCWxBIWM6sqCMu/view?usp=sharing
 
 
 To run this application, please make sure you have installed Node.js, MondoDB Compass, and Postman Desktop on your machine. After cloning this repository, please do npm install for the frontend and backend. Please make sure the MongoDB Compass is running and connected. To run the frontend, please navigate into the frontend folder and give the command 'npm install' and then 'npm run dev' in your terminal. And to run the backend, please navigate into the backend folder using another terminal and run the command 'npm install' and then 'npm start' in your terminal.
