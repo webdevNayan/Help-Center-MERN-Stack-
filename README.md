@@ -1,7 +1,7 @@
 To see a video demonstration of this assignment, please watch the video available in the root folder. You can also watch the demonstration video using this Google Drive link if the root folder video is broken: https://drive.google.com/file/d/1DQoar37UTIb6pfgoT_cCWxBIWM6sqCMu/view?usp=sharing
 
 
-To run this application, please make sure you have installed Node.js, MondoDB Compass, and Postman Desktop on your machine. After cloning this repository, please do npm install. Please make sure the MongoDB Compass is running and connected. To run the frontend, please navigate into the frontend folder and give the command  'npm run dev' in your terminal. And to run the backend, please navigate into the backend folder using another terminal and run the run the command 'npm start' in your terminal.
+To run this application, please make sure you have installed Node.js, MondoDB Compass, and Postman Desktop on your machine. After cloning this repository, please do npm install for the frontend and backend. Please make sure the MongoDB Compass is running and connected. To run the frontend, please navigate into the frontend folder and give the command 'npm install' and then 'npm run dev' in your terminal. And to run the backend, please navigate into the backend folder using another terminal and run the command 'npm install' and then 'npm start' in your terminal.
 
 Now The MongoDB Compass is running on the machine and connected, and both the front end and backend are running, so to add the cards to the MongoDB database, you can use Postman Desktop Againt. http://localhost:5000/api/cards  This is the REST API end point, and you can add the cards in this kind of JSON format.
 
